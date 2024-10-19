@@ -4,6 +4,8 @@ metadata:
   name: petstore
   namespace: external-systems
   description: Petstore
+  annotations:
+    argocd/app-name: cds
 spec:
   type: service
   lifecycle: experimental
