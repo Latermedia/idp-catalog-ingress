@@ -6,6 +6,7 @@ metadata:
   description: CDS
   annotations:
     argocd/app-name: cds
+    argocd/app-namespace: argocd
 spec:
   type: service
   lifecycle: experimental
